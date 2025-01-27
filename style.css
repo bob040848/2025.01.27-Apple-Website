@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Inter, serif;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+.info {
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.iphone-pro {
+  background-image: url(./image/Iphone-pro-desktop.png);
+  width: 100vw;
+  height: 692px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  padding-top: 55px;
+}
+.iphone-pro__text1 {
+  font-size: 42px;
+}
+.iphone-pro__tezt2 {
+  font-size: 22px;
+}
+.iphone-pro__buttons {
+  padding-top: 16px;
+}
+.iphone-pro .button-blue {
+  padding: 12px 20px;
+  border-radius: 90px;
+  background-color: #0071e3;
+  color: white;
+}
+.iphone-pro .button-black {
+  padding: 12px 20px;
+  border-radius: 90px;
+  /* Ungiig ni asuuna yaj covertoigoo adilhan bolgoh ve */
+  color: #2997ff;
+}
+.iphone-16 {
+  background-image: url(./image/Iphone-16.png);
+  width: 100vw;
+  height: 692px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 55px;
+}
+.iphone-16__text1 {
+  font-size: 42px;
+}
+.iphone-16__tezt2 {
+  font-size: 22px;
+}
+.iphone-16__buttons {
+  padding-top: 16px;
+}
+.iphone-16 .button-blue {
+  padding: 12px 20px;
+  border-radius: 90px;
+  background-color: #0071e3;
+  color: white;
+}
+.iphone-16 .button-black {
+  padding: 12px 20px;
+  border-radius: 90px;
+  /* Ungiig ni asuuna yaj covertoigoo adilhan bolgoh ve */
+  color: #2997ff;
+}
+@media only screen and (max-width: 836px) {
+  .navigation {
+    display: none;
+  }
+  .search-button {
+    margin-left: auto;
+  }
+  .menu-button {
+    display: block;
+  }
+  .info {
+    padding-block: 12px;
+  }
+  .iphone-pro {
+    background-image: url(./image/iphone-tablet.png);
+    height: 650px;
+  }
+  .iphone-16 {
+    background-image: url(./image/iphone-16-tablet.png);
+    height: 650px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .navigation {
+    display: none;
+  }
+  .info {
+    padding: 0;
+  }
+  .iphone-pro {
+    background-image: url(./image/iphone-mobile.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 36px;
+    height: 500px;
+  }
+  .iphone-pro__text1 {
+    font-size: 30px;
+  }
+  .iphone-pro__tezt2 {
+    font-size: 18px;
+  }
+  .iphone-pro__buttons {
+    font-size: 14px;
+  }
+  .iphone-16 {
+    background-image: url(./image/iphone-16-mobile.png);
+    height: 500px;
+  }
+  .iphone-16__text1 {
+    font-size: 30px;
+  }
+  .iphone-16__tezt2 {
+    font-size: 18px;
+  }
+  .iphone-16__buttons {
+    font-size: 14px;
+  }
+}
