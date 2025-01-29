@@ -159,7 +159,7 @@
   align-items: center;
   text-align: center;
   justify-content: flex-end;
-  padding-block: 55px 36px;
+  padding-block: 48px 58px;
 }
 .airpods-2__text1 {
   color: white;
@@ -198,7 +198,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-block: 55px 36px;
+  padding-block: 48px 58px;
 }
 .macbook-air__text1 {
   font-size: 36px;
@@ -206,6 +206,7 @@
 }
 .macbook-air__text2 {
   font-size: 18px;
+  padding-block: 2px 16px;
 }
 .macbook-air__buttons {
   display: flex;
@@ -281,12 +282,25 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-top: 58.42px;
+  padding-block: 48px 58px;
+}
+.trade-image {
+  width: 162px;
+  height: 40px;
+}
+.trade-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .trade__text {
-  padding-top: 4px;
+  padding-top: 2px;
   padding-bottom: 16px;
   font-size: 18px;
+}
+.trade__button {
+  display: flex;
+  column-gap: 16px;
 }
 .trade button {
   padding: 10px 16px;
@@ -295,8 +309,8 @@
   color: white;
   border-radius: 90px;
 }
-.card {
-  background-image: url(./image/card-desktop.png);
+.small-business {
+  background-image: url(./image/smallBusiness.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -304,31 +318,59 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-top: 58px;
+  padding-block: 48px 58px;
 }
-.card__text {
-  padding-top: 4px;
+.small-business__text1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.small-business__text2 {
   font-size: 18px;
+  padding-block: 2px 16px;
 }
-.card__buttons {
-  padding-top: 16px;
+.small-business__button {
   display: flex;
-  gap: 16px;
+  column-gap: 16px;
 }
-.card__buttons .button__blue {
+.small-business__button .button__blue {
   padding: 10px 16px;
   border-radius: 90px;
   background-color: #0071e3;
   border: solid #0071e3;
   color: white;
 }
-.card__buttons .button__transparent {
-  padding: 10px 16px;
-  border-radius: 90px;
-  background-color: transparent;
-  border: solid #0071e3;
-  color: #0071e3;
+.deals {
+  background-image: url(./image/carrierDeals.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding-block: 48px 58px;
 }
+.deals__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+.deals__text {
+  font-size: 18px;
+  padding-block: 2px 16px;
+}
+.deals__button {
+  display: flex;
+  column-gap: 16px;
+}
+.deals__button button {
+  color: white;
+  padding: 12px 20px;
+  border-radius: 90px;
+  border: solid #0071e3;
+  background-color: #0071e3;
+}
+
 @media only screen and (max-width: 768px) {
   .navigation {
     display: none;
@@ -382,6 +424,32 @@
     background-image: url(./image/watch-tablet.png);
   }
   .apple-watch__text2 {
+    font-size: 18px;
+  }
+  .trade {
+    padding-block: 42px;
+  }
+  .trade__text {
+    font-size: 18px;
+  }
+  .small-business {
+    padding-block: 42px;
+  }
+  .small-business__text1 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .small-business__text2 {
+    font-size: 18px;
+  }
+  .deals {
+    padding-block: 42px;
+  }
+  .deals__title {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .deals__text {
     font-size: 18px;
   }
 }
@@ -451,11 +519,47 @@
   .macbook-air__text1 {
     font-size: 20px;
   }
+  .macbook-air__buttons {
+    column-gap: 12px;
+  }
+  .macbook-air__buttons .button__blue {
+    padding: 8px 16px;
+  }
+  .macbook-air__buttons .button__transparent {
+    padding: 8px 16px;
+  }
   .apple-watch {
     padding-block: 46px;
     background-image: url(./image/watch-mobile.png);
   }
   .apple-watch__buttons {
     gap: 12px;
+  }
+  .trade {
+    padding-block: 46px;
+  }
+  .trade__button {
+    column-gap: 16px;
+  }
+  .trade button {
+    padding: 8px 16px;
+  }
+  .small-business {
+    padding-block: 46px;
+  }
+  .small-business__button {
+    column-gap: 12px;
+  }
+  .small-business__button .button__blue {
+    padding: 8px 16px;
+  }
+  .deals {
+    padding-block: 46px;
+  }
+  .deals__button {
+    column-gap: 12px;
+  }
+  .deals__button button {
+    padding: 8px 16px;
   }
 }
