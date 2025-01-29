@@ -114,17 +114,24 @@
   align-items: center;
   text-align: center;
   padding-block: 55px 36px;
+  line-height: 0.8;
 }
 .gift-magic__text1 {
+  display: block;
   font-size: 52px;
   color: black;
   font-weight: 600;
 }
 .gift-magic__text2 {
+  display: block;
   font-size: 24px;
   color: black;
   font-weight: 400;
   margin-block: 16px 20px;
+}
+.gift-button {
+  display: flex;
+  column-gap: 16px;
 }
 .gift-button .button-blue {
   padding: 12px 20px;
@@ -133,56 +140,15 @@
   background-color: #0071e3;
   border-radius: 90px;
   border: #0071e3 solid;
-  cursor: pointer;
 }
 .product-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 580px;
-  margin-top: 12px;
+  margin-bottom: 12px;
   gap: 12px;
 }
-.ipad-air {
-  background-image: url(./image/Ipad-air-desktop.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 58px;
-  text-align: center;
-}
-.ipad-air__heading {
-  width: 100%;
-  object-fit: contain;
-}
-.ipad-air__text1 {
-  padding-top: 9px;
-}
-.ipad-air__buttons {
-  display: flex;
-  gap: 16px;
-  padding-top: 20px;
-}
-.ipad-air__buttons .button__blue {
-  color: white;
-  background-color: #0071e3;
-  border-radius: 90px;
-  border: solid #0071e3;
-  padding: 10px 16px;
-}
-.ipad-air__buttons .button__transparent {
-  color: #2997ff;
-  border-radius: 90px;
-  border: solid #2997ff;
-  padding: 10px 20px;
-  background-color: transparent;
-}
-.ipad-air__text2 {
-  padding-top: 324px;
-  color: #2997ff;
-}
+
 .airpods-2 {
   background-image: url(./image/Airpods-2-desktop.png);
   background-position: center;
@@ -200,7 +166,6 @@
   font-size: 36px;
 }
 .airpods-2__text2 {
-  padding-top: 2px;
   color: white;
   font-size: 18px;
 }
@@ -222,6 +187,44 @@
   padding: 10px 20px;
   color: #2997ff;
   border-radius: 90px;
+}
+
+.macbook-air {
+  background-image: url(./image/macbook-air-desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-block: 55px 36px;
+}
+.macbook-air__text1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.macbook-air__text2 {
+  font-size: 18px;
+}
+.macbook-air__buttons {
+  display: flex;
+  gap: 16px;
+  padding-top: 10px;
+}
+.macbook-air__buttons .button__blue {
+  padding: 10px 16px;
+  border: solid #0071e3;
+  border-radius: 90px;
+  background-color: #0071e3;
+  color: white;
+}
+.macbook-air__buttons .button__transparent {
+  padding: 10px 20px;
+  border: solid #2997ff;
+  color: #2997ff;
+  border-radius: 90px;
+  background-color: transparent;
 }
 .apple-watch {
   background-image: url(/image/watch-desktop.png);
@@ -252,7 +255,6 @@
   font-size: 18px;
 }
 .apple-watch__buttons {
-  padding-top: 10px;
   display: flex;
   gap: 16px;
 }
@@ -269,43 +271,6 @@
   background-color: transparent;
   padding: 10px 20px;
   color: #2997ff;
-}
-.macbook-air {
-  background-image: url(./image/macbook-air-desktop.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding-top: 48px;
-}
-.macbook-air__text1 {
-  font-size: 36px;
-  font-weight: 600;
-}
-.macbook-air__text2 {
-  font-size: 18px;
-}
-.macbook-air__buttons {
-  display: flex;
-  gap: 16px;
-  padding-top: 10px;
-}
-.macbook-air__buttons .button__blue {
-  padding: 10px 16px;
-  border: solid #0071e3;
-  border-radius: 90px;
-  background-color: #0071e3;
-  color: white;
-}
-.macbook-air__buttons .button__transparent {
-  padding: 10px 20px;
-  border: solid #2997ff;
-  color: #2997ff;
-  border-radius: 90px;
-  background-color: transparent;
 }
 .trade {
   background-image: url(./image/tradein-desktop.png);
@@ -391,17 +356,33 @@
   }
   .gift-magic__text1 {
     font-size: 42px;
-    cursor: pointer;
   }
   .gift-magic__text2 {
     padding-block: 4px 16px;
-    cursor: pointer;
   }
   .product-container {
     grid-auto-rows: 490px;
   }
+  .airpods-2 {
+    padding-block: 42px;
+  }
+  .airpods-2__text1 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .macbook-air {
+    padding-block: 42px;
+  }
+  .macbook-air__text1 {
+    font-size: 26px;
+    font-weight: 700;
+  }
   .apple-watch {
     padding-block: 42px;
+    background-image: url(./image/watch-tablet.png);
+  }
+  .apple-watch__text2 {
+    font-size: 18px;
   }
 }
 
@@ -444,16 +425,37 @@
   }
   .gift-magic {
     height: 500px;
-    cursor: pointer;
   }
   .gift-magic__text1 {
     font-size: 30px;
-    cursor: pointer;
+    font-weight: 700;
+  }
+  .gift-button {
+    column-gap: 12px;
+  }
+  .button-blue {
+    padding: 8px 16px;
   }
   .product-container {
     grid-template-columns: 1fr;
   }
+  .airpods-2 {
+    padding-block: 46px;
+  }
+  .airpods-2__text1 {
+    font-size: 20px;
+  }
+  .macbook-air {
+    padding-block: 46px;
+  }
+  .macbook-air__text1 {
+    font-size: 20px;
+  }
   .apple-watch {
     padding-block: 46px;
+    background-image: url(./image/watch-mobile.png);
+  }
+  .apple-watch__buttons {
+    gap: 12px;
   }
 }
