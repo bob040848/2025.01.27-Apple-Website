@@ -370,6 +370,13 @@
   border: solid #0071e3;
   background-color: #0071e3;
 }
+.apple-tvshows {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  column-gap: 15px;
+}
 
 @media only screen and (max-width: 768px) {
   .navigation {
