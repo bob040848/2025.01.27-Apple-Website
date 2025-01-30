@@ -377,6 +377,37 @@
   overflow-x: scroll;
   column-gap: 15px;
 }
+.show-1 {
+  background-image: url(./image/scroll-bad-sisters.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  height: 668px;
+  width: 1250px;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+.show-1__contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 45px;
+  bottom: 40px;
+}
+.show-1 button {
+  padding: 12px 20px;
+  font-size: 17px;
+  border-radius: 90px;
+  cursor: pointer;
+  border: none;
+  margin-right: 14px;
+}
+.show-1__span1 {
+  font-weight: 700;
+}
 
 @media only screen and (max-width: 768px) {
   .navigation {
@@ -458,6 +489,17 @@
   }
   .deals__text {
     font-size: 18px;
+  }
+  .show-1 {
+    height: 368px;
+    width: 689px;
+  }
+  .show-1 button {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 90px;
+    cursor: pointer;
+    border: none;
   }
 }
 
@@ -568,5 +610,21 @@
   }
   .deals__button button {
     padding: 8px 16px;
+  }
+  .show-1 {
+    height: 495px;
+    width: 274px;
+    background-image: url(./image/548x1186-badsisters.jpg);
+  }
+  .show-1 button {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 90px;
+    cursor: pointer;
+    border: none;
+  }
+  .show-1__span2,
+  .show-1__span3 {
+    display: none;
   }
 }
