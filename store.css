@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: Inter, serif;
 }
+.body {
+  overflow: hidden;
+}
 .header {
   display: flex;
   justify-content: center;
@@ -27,15 +30,374 @@
 .rainbow-bg {
   width: 100%;
 }
-/* .gradient-bg {
-  background-image: linear-gradient(
-    90deg,
-    #019ffb 100%,
-    #e44cbb 100%,
-    #f55be4 100%,
-    #f5f5f7 100%,
-    #fd8c1f 100%
-  );
+.store-gift {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 140px;
+}
+.store__text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+.rainbow__text {
+  color: transparent;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  font-size: 44px;
+  font-weight: 700;
+}
+.gray__text {
+  font-size: 44px;
+  font-weight: 700;
+  color: gray;
+}
+.store-support {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.store-support__icon {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+.store-support__text h2 {
+  font-weight: 700;
+  font-size: 14px;
+}
+.store-support__text a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #0066cc;
+}
+.store-support__text1 h2 {
+  font-weight: 700;
+  font-size: 14px;
+}
+.store-support__text1 a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #0066cc;
+}
+.store-support__text1 {
+  display: flex;
+  column-gap: 16px;
+  justify-content: space-between;
+}
+.store-cards {
+  display: flex;
+  margin-bottom: 60px;
+  padding-inline: 140px;
+}
+.store-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 8px;
+}
+.store-card-image {
+  width: 120px;
+  height: 78px;
+}
+.store-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.store-card-title {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 18px;
+  text-align: center;
+}
+.latest-products-section {
+  padding-left: 140px;
+  margin-bottom: 60px;
+}
+.latest-title {
+  display: flex;
+  gap: 4px;
+  font-weight: 700;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.latest-title h1 {
+  color: transparent;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  font-size: 24px;
+}
+.latest-title p {
+  color: #6e6e73;
+  font-size: 24px;
+}
+.latest-products {
   width: 100vw;
-  height: 90px;
-} */
+  display: flex;
+  column-gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.item1 {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  width: 500px;
+  background-image: url(./store-images/store-card-40-iphone-16-pro-202409_GEO_US-latest1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  row-gap: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.item1 h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.item2 {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  width: 500px;
+  background-image: url(./store-images/store-card-40-watch-s10-202409-latest2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  row-gap: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.item2 h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.item3 {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  width: 500px;
+  background-image: url(./store-images/store-card-40-ipad-mini-202410-latest3.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  row-gap: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.item3 h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.item4 {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  width: 500px;
+  background-image: url(./store-images/store-card-40-macbook-pro-202410-latest4.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  row-gap: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.item4 h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.item5 {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  width: 500px;
+  background-image: url(./store-images/store-card-40-iphone-16-202409_GEO_US-latest5.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  row-gap: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.item5 h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.item6 {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  width: 500px;
+  background-image: url(./store-images/store-card-40-watch-ultra-202409_GEO_US-latest6.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  row-gap: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.item6 h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.item7 {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  width: 500px;
+  background-image: url(./store-images/store-card-40-ipad-air-202405-latest7.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  row-gap: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.item7 h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.item8 {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  width: 500px;
+  background-image: url(./store-images/store-card-40-mac-mini-202410-latest8.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  row-gap: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.item8 h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.item9 {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  width: 500px;
+  background-image: url(./store-images/store-card-40-ipad-pro-202405-latest9.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  row-gap: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.item9 h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.item10 {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  width: 500px;
+  background-image: url(./store-images/store-card-40-macbook-air-202402-10.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  row-gap: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.item10 h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.item11 {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  width: 500px;
+  background-image: url(./store-images/store-card-40-imac-202410-latest11.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  row-gap: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.item11 h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.item12 {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  width: 500px;
+  background-image: url(./store-images/store-card-40-vision-pro-202401-latest12.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  row-gap: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.item12 h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.item13 {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  width: 500px;
+  background-image: url(./store-images/store-card-40-watch-se-202412-latest13.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  row-gap: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.item13 h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
