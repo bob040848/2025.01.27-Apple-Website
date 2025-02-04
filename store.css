@@ -156,6 +156,7 @@
   border-radius: 20px;
   scroll-snap-align: start;
   flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
 }
 .item1 h2 {
   font-size: 26px;
@@ -176,6 +177,7 @@
   border-radius: 20px;
   scroll-snap-align: start;
   flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
 }
 .item2 h2 {
   font-size: 26px;
@@ -196,6 +198,7 @@
   border-radius: 20px;
   scroll-snap-align: start;
   flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
 }
 .item3 h2 {
   font-size: 26px;
@@ -216,6 +219,7 @@
   border-radius: 20px;
   scroll-snap-align: start;
   flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
 }
 .item4 h2 {
   font-size: 26px;
@@ -236,6 +240,7 @@
   border-radius: 20px;
   scroll-snap-align: start;
   flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
 }
 .item5 h2 {
   font-size: 26px;
@@ -256,6 +261,7 @@
   border-radius: 20px;
   scroll-snap-align: start;
   flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
 }
 .item6 h2 {
   font-size: 26px;
@@ -276,6 +282,7 @@
   border-radius: 20px;
   scroll-snap-align: start;
   flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
 }
 .item7 h2 {
   font-size: 26px;
@@ -296,6 +303,7 @@
   border-radius: 20px;
   scroll-snap-align: start;
   flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
 }
 .item8 h2 {
   font-size: 26px;
@@ -316,6 +324,7 @@
   border-radius: 20px;
   scroll-snap-align: start;
   flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
 }
 .item9 h2 {
   font-size: 26px;
@@ -336,6 +345,7 @@
   border-radius: 20px;
   scroll-snap-align: start;
   flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
 }
 .item10 h2 {
   font-size: 26px;
@@ -356,6 +366,7 @@
   border-radius: 20px;
   scroll-snap-align: start;
   flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
 }
 .item11 h2 {
   font-size: 26px;
@@ -376,6 +387,7 @@
   border-radius: 20px;
   scroll-snap-align: start;
   flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
 }
 .item12 h2 {
   font-size: 26px;
@@ -396,8 +408,286 @@
   border-radius: 20px;
   scroll-snap-align: start;
   flex-shrink: 0;
+  box-shadow: 2px 4px 12px #00000014;
 }
 .item13 h2 {
   font-size: 26px;
   font-weight: 700;
+}
+.accessories-products-section {
+  padding-left: 140px;
+  margin-bottom: 60px;
+}
+.accessories-title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.accessories-title h1 {
+  color: transparent;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  font-size: 24px;
+}
+.accessories-title p {
+  color: #6e6e73;
+  font-size: 24px;
+}
+.accessories-products {
+  width: 100vw;
+  display: flex;
+  column-gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.special-offer {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./store-images/store-card-40-valentines-accessories-400x500-special_offer.jpeg);
+  height: 500px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: flex-start;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  border-radius: 20px;
+  box-shadow: 2px 4px 12px #00000014;
+}
+.special-offer h4 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6e6e73;
+  padding-bottom: 8px;
+}
+.special-offer p {
+  font-size: 28px;
+  color: #1d1d1f;
+  font-weight: 600;
+}
+.accessories-item {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 400px;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.item-contents {
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px #00000014;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 400px;
+}
+.accessories-item-image {
+  height: 321px;
+  width: 253px;
+}
+.accessories-item-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.accessories-item-description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.item__name__description {
+  font-weight: 600;
+}
+.explore {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./store-images/explore.jpeg);
+  height: 500px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  border-radius: 20px;
+  box-shadow: 2px 4px 12px #00000014;
+}
+.explore h4 {
+  font-size: 28px;
+  font-weight: 500;
+  color: black;
+  padding-top: 40px;
+}
+.personalize-section {
+  padding-left: 140px;
+  margin-bottom: 60px;
+}
+.personalize-title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.personalize-title h1 {
+  color: transparent;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  font-size: 24px;
+}
+.personalize-title p {
+  color: #6e6e73;
+  font-size: 24px;
+}
+.personalize-products {
+  width: 100vw;
+  display: flex;
+  column-gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.free-engravings {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./store-images/personalize-title-img.jpeg);
+  height: 500px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: flex-start;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  border-radius: 20px;
+  box-shadow: 2px 4px 12px #00000014;
+}
+.free-engravings h4 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6e6e73;
+  padding-bottom: 8px;
+}
+.free-engravings p {
+  font-size: 28px;
+  color: #1d1d1f;
+  font-weight: 600;
+}
+.personalize-item {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 400px;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.personalize-contents {
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px #00000014;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 400px;
+}
+.personalize-item-image {
+  height: 321px;
+  width: 253px;
+}
+.personalize-item-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.personalize-item-description {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 20px;
+}
+.item__name__description {
+  font-weight: 600;
+}
+.personalize__title {
+  color: lightcoral;
+}
+.personalize5-item-image {
+  height: 351px;
+  width: 353px;
+}
+.personalize5-item-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.personalize6-item-image {
+  height: 351px;
+  width: 353px;
+}
+.personalize6-item-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.store-help {
+  padding-left: 140px;
+  margin-bottom: 60px;
+}
+.store-help-title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.store-help-title h1 {
+  color: black;
+  font-size: 24px;
+}
+.store-help-title p {
+  color: #6e6e73;
+  font-size: 24px;
+}
+.store-help-types {
+  width: 100vw;
+  display: flex;
+  column-gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.apple-specialist {
+  background-image: url(./store-images/apple-specialist.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 4px 12px #00000014;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+.apple-specialist h3 {
+  font-size: 12px;
+  padding-bottom: 8px;
+  color: #6e6e73;
+}
+.apple-specialist p {
+  font-size: 28px;
+  color: black;
+  font-weight: 600;
 }
