@@ -680,6 +680,7 @@
   border-radius: 20px;
   scroll-snap-align: start;
   flex-shrink: 0;
+  padding-top: 30px;
 }
 .apple-specialist h3 {
   font-size: 12px;
@@ -690,4 +691,123 @@
   font-size: 28px;
   color: black;
   font-weight: 600;
+}
+.specialist-video {
+  background-image: url(./store-images/specialist-video.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 4px 12px #00000014;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  padding: 34px;
+}
+.specialist-video h3 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.specialist-video p {
+  font-size: 17px;
+  font-weight: 400;
+}
+.today-at-apple {
+  background-image: url(./store-images/toady-at-apple.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 4px 12px #00000014;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  padding-top: 30px;
+}
+.today-at-apple h3 {
+  font-size: 12px;
+  padding-bottom: 8px;
+  color: #6e6e73;
+}
+.today-at-apple p {
+  font-size: 28px;
+  font-weight: 600;
+}
+.guidance {
+  background-image: url(./store-images/guidance.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 4px 12px #00000014;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  padding-top: 30px;
+}
+.guidance h3 {
+  font-size: 12px;
+  padding-bottom: 8px;
+  color: #6e6e73;
+}
+.guidance p {
+  font-size: 28px;
+  font-weight: 600;
+}
+.genius-bar {
+  background-image: url(./store-images/genius-bar.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 4px 12px #00000014;
+  border-radius: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  padding-top: 60px;
+}
+.genius-bar p {
+  font-size: 28px;
+  font-weight: 600;
+}
+.quick-links {
+  padding-left: 140px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.quick-links div {
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.quick-buttons {
+  display: flex;
+  column-gap: 12px;
+}
+.quick-buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 90px;
+  border: solid black;
+  column-gap: 8px;
+  padding: 10px 12px;
+  background-color: transparent;
+}
+.quick-buttons img {
+  height: 8px;
+  width: 8px;
 }
